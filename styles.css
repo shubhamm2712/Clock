@@ -63,3 +63,24 @@ p{
     margin-inline-start: 5vh;
     margin-inline-end: 5vh;
 }
+
+@media only screen and (max-width:600px){
+    .header{
+        font-size:8vw;
+    }
+    .cont{
+        padding:2vw;
+    }
+    .buttons button{
+        margin: 3vw;
+        font-size: 5vw;
+        padding:3vw;
+    }
+    #time{
+        font-size: 20vw;
+        margin-bottom: 80px;
+    }
+    #tag{
+        font-size: 15vw;
+    }
+}
